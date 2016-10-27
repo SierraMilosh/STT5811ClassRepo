@@ -1,12 +1,12 @@
 ---
 title: "STT 5811 Course Schedule"
 author: "Alan T. Arnholt"
-date: 'Last compiled: `r format(Sys.time(), "%B %d, %Y")`'
+date: 'Last compiled: `r format(Sys.time(), "%A, %B %d, %Y - %X.")`'
 output: 
   html_document: 
     highlight: textmate
-    theme: cosmo
-css: "../css/style.css"
+    theme: yeti
+    css: "../css/style.css"
 ---
 
 <script type="text/x-mathjax-config">
@@ -53,7 +53,7 @@ Clarity  | Few errors of grammar and usage; any minor errors do not interfere wi
 
 * Read the [Git and GitHub](http://r-pkgs.had.co.nz/git.html) chapter from Hadley Wickham's book [R Packages](http://r-pkgs.had.co.nz/)
 
-* Read chapters 1-3 in [*Passion Driven Statistics, (PDS)*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html), and watch all linked videos in [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).   
+* Read chapters 1-3 in [*Passion Driven Statistics, (PDS)*](https://alanarnholt.github.io/PDS-Bookdown2/), and watch all linked videos in [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).   
 
 * Read chapters 1-3 of [*Reproducible Research with R and RStudio*](https://github.com/christophergandrud/Rep-Res-Book).
 
@@ -81,7 +81,7 @@ Watch the following video:
 
 * Read sections 1.1-1.5 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapters 4 and 5 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html) (Conducting a Literature Review and Writing About Empirical Research).
+* Read chapters 4 and 5 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/) (Conducting a Literature Review and Writing About Empirical Research).
 
 * Using [zotero](https://www.zotero.org/) will be covered.
 
@@ -109,6 +109,12 @@ git remote -v
 ```
 git pull upstream master
 ```
+
+* If the upstream repository is using `gh-pages`, use `gh-pages` instead of `master` to obtain updates.
+```
+git pull upstream gh-pages
+```
+
 * If there are conflicts, you will need to resolve them before proceeding.
 
 * Create a free account on [DataCamp](https://www.datacamp.com/).  Complete chapter 1 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
@@ -185,7 +191,7 @@ Test yourself:
 
 * Read sections 1.6-1.8 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapters 6, 8, and 9 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapters 6, 8, and 9 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 2 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -260,7 +266,7 @@ Test yourself:
 
 * Read sections 2.1-2.5 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 7 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 7 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 3 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -347,7 +353,7 @@ Test yourself: 50% of students in a class are social science majors and the rest
 
 * Compile and read the `exampleEDA.Rmd` lab.
 
-* Read chapter 9 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 9 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Section 3.1-3.2 {-}
@@ -398,6 +404,7 @@ Test yourself:
 * Watch the [*Data Wrangling with R and RStudio* (55 minutes)](https://www.rstudio.com/resources/webinars/archives/) video.
 * Watch the first 30 minutes of [*The Grammar of Graphics and Data Science*](https://www.rstudio.com/resources/webinars/archives/).
 * Read the vignette in the `PDS` package.
+* [Shading normal areas](../rmarkdownSTUFF/NormalGGio.html)
 
 #### Practice Exercises 
 
@@ -420,7 +427,7 @@ Test yourself:
 
 * Complete chapter 4 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
-* Complete the `sampling_distributions_ASU.Rmd` lab and submit your compiled `*html` file no later than 5:00 p.m., September 30, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2239).  Make sure you commit and push your your final product to your private repository.
+* Complete the `sampling_distributions_ASU2.Rmd` lab and submit your compiled `*html` file no later than ~~5:00 p.m., September 30~~ 11:00 p.m., October 2, to [CrowdGrader](	https://www.crowdgrader.org/crowdgrader/venues/view_venue/2239).  Make sure you commit and push your your final product to your private repository.
 
 
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Section 4.1 {-}
@@ -517,7 +524,7 @@ Test yourself:
 
 * Read sections 4.3-4.6 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 10 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 10 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 5 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -639,7 +646,9 @@ Test yourself:
 
 * Read sections 5.1-5.5 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 11 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read [_Can A New Drug Reduce the Spread of Schistosomiasis?_](https://alanarnholt.github.io/STT3850/Notes/Parent/Parent.html)---Use control f on the web page to find the appropriate text inside the notes.
+
+* Read chapter 11 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 6 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -774,13 +783,18 @@ Test yourself:
 * End of chapter exercises in Chapter 5 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os): 5.1, 5.3, 5.5, 5.13, 5.17, 5.19, 5.21, 5.23, 5.27, 5.31, 5.35, 5.37, 5.39, 5.41, 5.43, 5.45, 5.47, 5.49, 5.51
 ```
 
+```{block, INCLASS, type='rmdnote'}
+[Discuss](../rmarkdownSTUFF/Baseball.html) 
+```
+
+
 ## Week 11: (Oct 25, 27) {-}
 
 * Watch all videos for week four of [*Inferential Statistics*](https://www.coursera.org/learn/inferential-statistics-intro/home/welcome).
 
 * Read sections 6.1-6.6 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 12 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 12 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 7 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -939,7 +953,7 @@ Test yourself:
 
 * Read sections 7.1-7.2 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 13 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 13 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Complete chapter 8 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
@@ -1103,7 +1117,7 @@ $$\widehat{\text{gpa}}= 3.57 − 0.01 \times \text{premed}$$
 
 * Read sections 7.3-7.4 of [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os).
 
-* Read chapter 15 of [*PDS*](https://alanarnholt.github.io/PDS-BookDown/BookDownTry/book/overview.html).
+* Read chapter 15 of [*PDS*](https://alanarnholt.github.io/PDS-Bookdown2/).
 
 * Review chapter 8 of [*Data Analysis and Statistical Inference* ](https://www.datacamp.com/courses/statistical-inference-and-data-analysis)
 
